@@ -1,0 +1,68 @@
+.container{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.word{
+    font-size: xxx-large;
+    position: absolute;
+    top:50%;
+    transform: translate(0, -50%);
+}
+
+.again{
+    font-size: xxx-large;
+    position: absolute;
+    top:70%;
+    transform: translate(0, -70%);
+    border-radius: 40%;
+    cursor: pointer;
+    
+}
+
+.again:hover{
+    color:#5dbcd2;
+}
+
+button{
+    font-size: xx-large;
+    border-radius: 40%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto
+}
+
+.thebody{
+    color: white;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+@media screen and (orientation: landscape) { 
+    .thebody{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('1.PNG');
+    }
+}
+
+@media screen and (orientation: portrait) { 
+    .thebody{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('2.PNG');
+    }
+}
+
+.img{
+    width: 100%;
+    height:auto;
+}
+
+h3{
+    text-align: center;
+    /* text-decoration: underline; */
+}
+
