@@ -1,0 +1,17 @@
+{
+    "name": "RWG",
+    "short_name": "RWG",
+    "theme_color": "#5dbcd2",
+    "background_color": "#5dbcd2",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://rwg.netlify.app",
+    "description": "Random Word Generator",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "https://rwg.netlify.app/favicon.ico",
+            "sizes": "256x256"
+        }
+    ]
+}
