@@ -9,14 +9,14 @@
 }
 
 .word{
-    font-size: xxx-large;
+    font-size: 3em;
     position: absolute;
     top:50%;
     transform: translate(0, -50%);
 }
 
 .again{
-    font-size: xxx-large;
+    font-size: 3em;
     position: absolute;
     top:70%;
     transform: translate(0, -70%);
@@ -39,6 +39,7 @@ button{
 
 .thebody{
     color: white;
+    background-color: black;
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
